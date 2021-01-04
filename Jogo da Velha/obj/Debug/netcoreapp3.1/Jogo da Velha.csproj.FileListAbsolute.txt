@@ -1,0 +1,19 @@
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.exe
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.deps.json
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.runtimeconfig.json
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.runtimeconfig.dev.json
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.dll
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\bin\Debug\netcoreapp3.1\Jogo da Velha.pdb
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.csprojAssemblyReference.cache
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha_MarkupCompile.cache
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha_MarkupCompile.lref
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.g.resources
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.AssemblyInfoInputs.cache
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.AssemblyInfo.cs
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.csproj.CoreCompileInputs.cache
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.dll
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.pdb
+D:\Programação\C#\Jogo da Velha\Jogo da Velha\obj\Debug\netcoreapp3.1\Jogo da Velha.genruntimeconfig.cache
