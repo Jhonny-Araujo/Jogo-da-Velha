@@ -83,7 +83,7 @@ namespace Jogo_da_Velha
             if (XouO == "O")
                 XouO = "X";
             else if (XouO == "X")
-                XouO = "O";
+                XouO = "O"; 
         }
         private void realizar_Jogada(Button botaoAuxiliar) //Fazer a jogada, modificação o texto do Botão, olha se tem vencedor
         {
@@ -139,8 +139,87 @@ namespace Jogo_da_Velha
             lbl_jogador2.Content = "Jogador 2: "+jgd2;
             lbl_empate.Content = "EMPATE: "+ empt;
 
+            if (XouO == "O") //Caso o jogo não tenha chegado ao fim, passa a vez para a máquina
+            {
+                IA();
+            }
+
         }
 
+        private void IA() //Cria uma pequena inteligência, para jogar contra o play 1
+        {
+            //IA BURRA (Sorteia um botão aleatorio)
+            if (true)
+            {
+                //string XouO_maquina = "O";// Variavel a ser usada quando o jogador escolher se prefero X ou O;
+                bool jogadaRealizada = false;
+                int botaoPressionado;
+                Random random = new Random();
+
+                while (!jogadaRealizada) //Enquanto o botão selecionado não for válido...
+                {
+                    botaoPressionado = random.Next(1, 9);
+                    if ((botaoPressionado == 1) && Botao_1_1.IsEnabled) //verifica se o botão escolhido esta disponivel
+                    {
+                        realizar_Jogada(Botao_1_1);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 2) && Botao_1_2.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_1_2);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 3) && Botao_1_3.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_1_3);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 4) && Botao_2_1.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_2_1);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 5) && Botao_2_2.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_2_2);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 6) && Botao_2_3.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_2_3);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 7) && Botao_3_1.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_3_1);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 8) && Botao_3_2.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_3_2);
+                        jogadaRealizada = true;
+                    }
+                    else if ((botaoPressionado == 9) && Botao_3_3.IsEnabled)
+                    {
+                        realizar_Jogada(Botao_3_3);
+                        jogadaRealizada = true;
+                    }
+
+
+                    //Verfica se o jogo acabou (para sair do loop, caso play vencer vencedor)
+                    else if(!Botao_1_1.IsEnabled && !Botao_1_2.IsEnabled && !Botao_1_3.IsEnabled &&
+                            !Botao_2_1.IsEnabled && !Botao_2_2.IsEnabled && !Botao_2_3.IsEnabled &&
+                            !Botao_3_1.IsEnabled && !Botao_3_2.IsEnabled && !Botao_3_3.IsEnabled)
+                    {
+                        jogadaRealizada = true;
+                    }
+
+                }
+                
+
+               
+            }
+        }
 /*******************************************************************************************************************************************/
 
         public MainWindow()
